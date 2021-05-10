@@ -23,3 +23,22 @@ export const menuBtnStyles = makeStyles({
     },
   },
 });
+
+export const headerMiddleStyles = makeStyles((theme) => ({
+  title: {
+    fontSize: theme.typography.h3.fontSize,
+    fontWeight: theme.typography.fontWeightMedium,
+  },
+  searchInput: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: theme.palette.primary.h,
+    padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
+    borderRadius: theme.spacing(1),
+  },
+  input: {
+    paddingLeft: theme.spacing(1),
+    width: "100%",
+  },
+}));
