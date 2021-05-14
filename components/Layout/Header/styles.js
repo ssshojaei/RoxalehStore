@@ -42,3 +42,19 @@ export const headerMiddleStyles = makeStyles((theme) => ({
     width: "100%",
   },
 }));
+
+export const headerCategories = makeStyles((theme) => ({
+  root: {
+    background: theme.palette.primary.h,
+    padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`,
+    marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(1),
+  },
+  categoryLabel: {
+    color: theme.palette.main,
+    fontSize: `${theme.typography.subtitle2.fontSize} !important`,
+    margin: "none",
+    padding: "none",
+    whiteSpace: "nowarp",
+  },
+}));
